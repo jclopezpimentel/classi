@@ -1,0 +1,6 @@
+Modulos:
+
+Autentificacion:Fucion que se lleva a cabo cuando el usuario desea entrar al sitio,
+		para que esta funcion del sistema se lleve a cabo el usuario debe
+		estar peviamente registrado en el sistema de lo contrario no podra
+		acceder al sitio. 
