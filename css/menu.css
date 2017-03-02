@@ -1,0 +1,46 @@
+*{
+	padding: 0px;
+	margin:  0px;
+	font-family: "Open Sans";
+}
+header{
+ 
+       	width: auto;
+       	height: 50px;
+       	background: #49A8FA;
+       	display: flex;
+       	justify-content: flex-end;
+}
+
+header ul{
+	display: flex;
+	list-style: none;
+}
+header ul li a{
+	display: block;
+	padding: 20px 20px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+header ul ul{
+	position: absolute;
+	top: 60px;
+	display: block;
+	background:#346998;
+	transition: translate(60%);
+	opacity: 0; 
+	transition: all .6s
+}
+header ul li a span{
+	transition: all .6s	
+}
+header ul li a:  hover span{
+	transition: translateY(10px);
+	opacity: 0;
+}
+header ul li: hover ul{
+	opacity: 1;
+	transition: translate(0%);
+}
