@@ -1,54 +1,62 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Classi</title>
+<div class="slider">
+	<ul>
+		<li><img style="width:810px;height: 400px;" src="imagenes/1.jpg" alt=""></li>
+		<li><img style="width:810px;height: 400px;" src="imagenes/2.jpg" alt=""></li>
+		<li><img style="width:810px;height: 400px;" src="imagenes/3.jpg" alt=""></li>
+		<li><img style="width:810px;height: 400px;" src="imagenes/4.jpg" alt=""></li>
 
-        <?php $this->load->view('Shared/header');?>
 
+</div>
+<div>
+	  <form enctype="multipart/form-data" id="loginletras" class="formoid-solid-blue" style="font-size:17px;font;color:black;max-width:480px;min-width:100px" ><div class="title"> Ingresa al sistema</div>
+		<input type="text" class="textbox" placeholder="Correo Electronico">
+		<input type="password" class="textbox" placeholder="Password">
+		<input type="submit" class="botonprincipal" value="Acceder"/></div>
+      </form>
+	<img id="login" style="width:450px;height:427px" src="imagenes/login.jpg" alt="login"> 
+	<a href="www.goole.com"style="text-decoration:none;color:black;" ><h5 style="margin-top:-40px;margin-left:80%;font-family:'Roboto',Arial,Helvetica,sans-serif;text-decoration:none;" >¿Olvidaste tu contraseña?</h5></a>
 
-	<meta charset="UTF-8">
-	<title>Slider Responsive</title>
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<script src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-    	touch: true,
-    	pauseOnAction: false,
-    	pauseOnHover: false,
-    });
-  });
-</script>
-
-</head>
-<body>
-<div class="flexslider">
-		<ul class="slides">
-			<li>
-				<img src="imagenes/1.jpg" alt="">
-				<section class="flex-caption">
-					<p>LOREM IPSUM 1</p>
-				</section>
-			</li>
-			<li>
-				<img src="imagenes/2.jpg" alt="">
-				<section class="flex-caption">
-					<p>LOREM IPSUM 2</p>
-				</section>
-			</li>
-			<li>
-				<img src="imagenes/3.jpg" alt="">
-				<section class="flex-caption">
-					<p>LOREM IPSUM 3</p>
-				</section>
-			</li>
-		</ul>
 	</div>
 
-       <!-- <?php $this->load->view('Shared/modallogin');?>-->
-        <?php $this->load->view('Shared/info-user');?>
+<div style="margin-top:50px;">
+<div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+          <h3>Classi</h3>
 
-</body>
-</html>
+      <p>Plataforma web para la administración de cursos académicos.</p>
+      <p>Facilitar la enseñanza de cursos presenciales así como mejorar la interacción entre alumnos y docentes. </p>
+    </div>
+    <div class="thumbnail">
+    <img style="width:300px;height: 190px;" src="imagenes/libros.png" alt="">
+    </div>
+
+  </div>
+</div>
+
+<div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Apoya el  conocimiento</h3>
+      <p>La creacion de cursos en linea para maximizar el aprendizaje</p>
+      <p>utilizando la tecnologia para facilitar este proceso.</p>
+      <img style="width:110px;height: 100px;" src="imagenes/conocimiento.png" alt="">
+    </div>
+    <div class="col-sm-4">
+      <h3>Siempre en linea</h3>
+      <p>Que el conocimiento te acompañe</p>
+      <p>Siempre disponible en internet para poder obtener todo el conocimiento</p>
+      <img style="width:110px;height: 100px;" src="imagenes/iconblack.png" alt="">
+
+    </div>
+    <div class="col-sm-4">
+      <h3>Descubre nuevos mundos</h3>        
+      <p>Material disponible para maximizar el conocimiento</p>
+      <p>Siempre llegando con nuevos documentos que estimulas nuestra base de conocimienotos</p>
+      <img style="width:150px;height: 150px;" src="imagenes/galaxy.png" alt="">
+
+    </div>
+  </div>
+</div>
