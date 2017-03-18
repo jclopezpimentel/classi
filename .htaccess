@@ -1,5 +1,8 @@
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php
 RewriteEngine on
+RewriteCond $1 !^(index\.php|images|styles|scripts|robots\.txt|favicon\.ico)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond $1 !^(index.php|css|js|images)
-RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]

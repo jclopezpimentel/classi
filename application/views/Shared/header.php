@@ -1,43 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Classi</title>
+    <title>Classi | Administrador de Cursos</title>
 
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>css/classi_principal.css" />
-    <script src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript" charset="utf-8">
-    $(window).load(function() {
-    $('.flexslider').flexslider({
-        touch: true,
-        pauseOnAction: false,
-        pauseOnHover: false,
-    });
-  });
-</script>
+    <link rel="stylesheet" href="<?php echo base_url();?>css/foundation.css" /> 
+    <link rel="stylesheet" href="<?php echo base_url();?>css/app.css" />
 
 </head>
 <header>
-    <div id="estilo1">
-        <form meter="get" id="formulario-buscar" action="#">
-            <input type="text" placeholder="Buscar..." id="s"/>
-            <button type="submit" id="boton-buscar"></button>
-        </form> 
-        <img class="logo" style="width:250px;height:100px" src="imagenes/classi_logo.png" alt="classi">
-        <nav>
-            <ul>
-                <li><a href= "inicio">Inicio</a>
-                <li><a >Nosotros</a>
-                <li><a >Registrar</a>
-                <li><a >Contactos</a>
-            </ul>
-        </nav> 
-        
-    </div>
+
+<div class="top-bar" style="background-color:#2C3840;">
+  <div class="top-bar-right"style="background-color:#2C3840;">
+    <ul class="dropdown menu" style="background-color:#2C3840" data-dropdown-menu>
+      <li><a href="inicio" style="color:white;">Inicio</a></li>
+      <li><a href="#"style="color:white;">Nosotros </a></li>
+      <li><a href="ingresar"style="color:white;">Registro/Acceso </a></li>
+     <li><a href="#"style="color:white;">      </a></li>
+    </ul>
+  </div>
+ <!-- <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Buscas.."></li>
+      <li><button type="button" class="button">Buscar</button></li>
+    </ul>
+  </div>-->
+</div>
+
 </header>

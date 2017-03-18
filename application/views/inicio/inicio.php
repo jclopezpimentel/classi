@@ -1,13 +1,93 @@
-<div class="slider">
-	<ul>
+
+<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit >
+  <ul class="orbit-container">
+    <button class="orbit-previous"><span class="show-for-sr">Anterior</span>&#9664;&#xFE0E;</button>
+    <button class="orbit-next"><span class="show-for-sr">Siguiente</span>&#9654;&#xFE0E;</button>
+    <li class="is-active orbit-slide">
+      <img class="orbit-image" src="imagenes/1.jpg" alt="stu">
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="imagenes/2.jpg" alt="stu">
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="imagenes/3.jpg" alt="stu">
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="imagenes/4.jpg" alt="stu">
+    </li>
+  </ul>
+ <div class="row homepage" style="position:absolute;margin-top:-40%;;margin-bottom:50%" >
+ <div class="small-8 medium-5 medium-offset-1 large-offset-2 end columns" >
+	<h1 style="color:white;">Classi</h1>
+	<h2 class="hero-subheader"style="color:white;">Administra tu curso academicos desde la red. Mejorando tu aprendizaje.</h2>
+	<br>
+	<a href="ingresar" class="large button sites-button hide-for-small-only">Ingresar</a>
+</div>
+</div>
+</div>
+<div class="row column"><hr class="dotted"></div>
+<div class="row">
+<div class="medium-9 medium-centered columns">
+<h2 class="text-center">Classi</h2>
+<h4 class="page-intro">Plataforma web para la administración de cursos académicos. Utilizando la tecnologia para facilitar este proceso. </h4>
+</div>
+</div>
+<div class="row column"><hr class="dotted"></div>
+
+<div class="row" data-equalizer data-equalize-on="medium" id="test-eq">
+  <div class="medium-4 columns">
+    <div class="callout" data-equalizer-watch>
+      <h3>Apoya el  conocimiento</h3>
+      <p>La creacion de cursos en linea para maximizar el aprendizaje
+      utilizando la tecnologia para facilitar este proceso.</p>
+      <img style=" width:100px;height:100px;" src= "imagenes/cono.png">
+
+    </div>
+  </div>
+  <div class="medium-4 columns">
+    <div class="callout" data-equalizer-watch>
+
+  		<h3>Siempre en linea</h3>
+      <p>Que el conocimiento te acompañe.
+       Siempre disponible en internet para poder obtener todo el conocimiento en cualquier momento.</p>
+       <img style=" width:100px;height:100px;" src= "imagenes/icon.png">
+
+          </div>
+  </div>
+  <div class="medium-4 columns">
+    <div class="callout" data-equalizer-watch>
+      <h3>Descubre  </h3>        
+      <p>Material disponible para maximizar el conocimiento.
+      Siempre llegando con nuevos documentos que estimulas nuestra base de conocimientos</p>
+      <img style=" width:100px;height:100px;" src= "imagenes/sistema.png">
+    </div>
+  </div>
+</div>
+ <!-- <div class="col-md-8">
+    	<div id="slider">
+			<figure>
+				<img src="imagenes/1.jpg" alt>
+				<img src="imagenes/2.jpg" alt>
+				<img src="imagenes/3.jpg" alt>
+			</figure>
+
+		</div>
+    </div>!-->
+
+
+
+<!--<div class="slider">
+	<ul> 
+   		 <img class="img-responsive" src="imagenes/login.jpg" style="float:right;width:100%;height:345px;"> 
+
 		<li><img style="width:810px;height: 400px;" src="imagenes/1.jpg" alt=""></li>
 		<li><img style="width:810px;height: 400px;" src="imagenes/2.jpg" alt=""></li>
 		<li><img style="width:810px;height: 400px;" src="imagenes/3.jpg" alt=""></li>
 		<li><img style="width:810px;height: 400px;" src="imagenes/4.jpg" alt=""></li>
 
 
-</div>
-<div>
+</div>-->
+<!--<div>
 	  <form enctype="multipart/form-data" id="loginletras" class="formoid-solid-blue" style="font-size:17px;font;color:black;max-width:480px;min-width:100px" ><div class="title"> Ingresa al sistema</div>
 		<input type="text" class="textbox" placeholder="Correo Electronico">
 		<input type="password" class="textbox" placeholder="Password">
@@ -59,4 +139,4 @@
 
     </div>
   </div>
-</div>
+</div>-->
